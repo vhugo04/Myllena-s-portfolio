@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: quicksand, sans-serif;
+    color: #000000;
+}
+
+body {
+    background: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 15px;;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #c9c4c4a6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    border-radius: 0 0 23px 23px;
+    z-index: 1000;
+}
+
+#profile {
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 24px;
+}
+
+/*
+#profile:hover{
+    width: 60px;
+}
+*/
+#links a {
+    background: #49383a;
+    border-radius: 16px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+#links a:hover {
+    padding: 20px;
+
+}
+
+#sobre {
+    padding: 50px;
+    position: relative;
+    top: 80px;
+    margin: 48px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #fdfdfdbd;
+    border-radius: 45px;
+}
+
+#about {
+    display: block;
+    text-align: center;
+    width: 40%;
+}
+
+#title {
+    font-size: 30px;
+}
+
+#text {
+    margin-top: 48px;
+    font-size: 17px;
+}
+
+#image-mozao {
+    width: 300px;
+    border-radius: 17.5px;
+    box-shadow: 4px -4px 8px 4px #49383a;
+}
+
+#tcc {
+    padding: 50px;
+    position: relative;
+    top: 80px;
+    margin: 48px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #fdfdfdbd;
+    border-radius: 45px;
+}
+
+#tccphoto {
+    width: 300px;
+    border-radius: 17.5px;
+    box-shadow: 4px -4px 8px 4px #49383a;
+}
+
+#tcc a {
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 11px;
+    color: #000000;
+    padding: 15px 0;
+}
+
+#texttcc {
+    width: 40%;
+    text-align: center;
+}
+
+#titletcc {
+    font-size: 30px;
+}
+
+#summarytcc {
+    margin-top: 48px;
+    font-size: 17px;
+}
+
+#revista {
+    padding: 50px;
+    position: relative;
+    top: 80px;
+    margin: 48px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #fdfdfdbd;
+    border-radius: 45px;
+}
+
+#textrevista {
+    width: 40%;
+    text-align: center;
+}
+
+#titlerevista {
+    font-size: 30px;
+}
+
+#summaryrevista {
+    margin-top: 48px;
+    font-size: 17px;
+}
+
+#photorevista {
+ width: 300px;
+    border-radius: 17.5px;
+    box-shadow: 4px -4px 8px 4px #49383a;
+}
+
+#revista a {
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 11px;
+    color: #000000;
+    padding: 15px 0;
+}
+
+#reportagens {
+    padding: 50px;
+    position: relative;
+    top: 80px;
+    margin: 48px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: #fdfdfdbd;
+    border-radius: 45px;
+}
+
+.textreportagens {
+    width: 38%;
+    text-align: center;
+}
+
+
+.titlereportagens {
+    font-size: 25px;
+}
+
+.summaryreportagens {
+    margin-top: 48px;
+    font-size: 16px;
+}
+
+.imagereportagens {
+    margin-bottom: 32px;
+    padding: 4px;
+    border-radius: 17.5px;
+}
